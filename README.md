@@ -82,7 +82,7 @@
 增删改查元素、排序、比较、翻转、计数、排列组合  
 数学函数（返回最大最小值、幂运算、求平方根、求绝对值、求对数、向上/下取整、四舍五入、生成伪随机数、_gcd） 等
 
-- [c++ STL常用算法](https://blog.csdn.net/m0_50046535/article/details/124358895)
+- [C++常用STL （容器类 、容器适配器 、迭代器 和 算法）](https://blog.csdn.net/m0_50046535/article/details/124358895)
 
 ---
 
@@ -103,7 +103,7 @@
 	cout.tie(nullptr);
 ```
 
-- [C++常用函数、容器类 和 STL](https://blog.csdn.net/weixin_45940369/article/details/131059386)
+- [C++常用STL （容器类 、容器适配器 、迭代器 和 算法）](https://blog.csdn.net/weixin_45940369/article/details/131059386)
 
 - 可以参考 [OI-wiki](https://oi-wiki.org/) 的 [学习路线](https://oi-wiki.org/contest/roadmap/) 和 [学习资源](https://oi-wiki.org/contest/resources/)
 
