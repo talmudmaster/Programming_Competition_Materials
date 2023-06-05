@@ -40,15 +40,46 @@
 
 ---
 
-## c++中常用容器类STL 
+## c++ STL
 
-- 动态数组（vector）  
-- 队列（queue）、优先队列（priority_queue）  
-- 栈（stack）  
-- 关联（map）、哈希map（unordered_map）  
-- 组合（pair）  
-- 集合（set）  
-- 堆（heap）
+### 容器类 
+
+1. 序列式容器（Sequence Containers）：
+- vector：动态数组，支持随机访问，可动态扩展大小。
+- deque：双端队列，支持双向访问，可高效插入删除首尾元素。
+- list：双向链表，支持顺序访问，可高效插入删除。
+2. 关联式容器（Associative Containers）：
+- set：基于红黑树实现的无序集合，元素唯一，并按照从小到大排列。
+- multiset：基于红黑树实现的无序集合，元素可重复，并按照从小到大排列。
+- map：基于红黑树实现的关联数组，键值对存储，自动排序。
+- multimap：基于红黑树实现的关联数组，键可以重复，键值对按照插入顺序存储。
+3. 无序关联式容器（Unordered Associative Containers）：
+- unordered_set：基于哈希表实现的无序集合，元素唯一，按照哈希值分组，查找复杂度为 O(1)。
+- unordered_multiset：基于哈希表实现的无序集合，元素可重复，按照哈希值分组，查找复杂度为 O(1)。
+- unordered_map：基于哈希表实现的关联数组，键值对存储，自动扩容和重组，查找复杂度为 O(1)。
+- unordered_multimap：基于哈希表实现的关联数组，键可以重复，键值对按照插入顺序存储，查找复杂度为 O(1)。  
+
+### 容器适配器
+
+- queue 是基于 deque 或 list 实现的队列容器适配器，支持先进先出（FIFO）的元素存取。
+- priority_queue 是基于 vector 实现的堆容器适配器，支持自动排序和高效的插入、删除操作。
+- stack 是基于 deque 或 vector 或 list 实现的栈容器适配器，支持后进先出（LIFO）的元素存取。
+- pair 是用来存储一对值的容器适配器，可以用来定义关联数组、映射表等数据结构。
+- heap 是用来实现堆排序算法的工具，提供了一些基本的堆操作函数，例如 make_heap、push_heap、pop_heap 等。  
+
+### 迭代器
+
+- 至少掌握 iterator 和 auto 的用法
+
+- [C++ TL迭代器](https://blog.csdn.net/ProgramAlcohol/article/details/122238033)
+
+### 常用算法函数
+
+- 至少掌握常用算法函数，如  
+增删改查元素、排序、比较、翻转、计数、排列组合  
+数学函数（返回最大最小值、幂运算、求平方根、求绝对值、求对数、向上/下取整、四舍五入、生成伪随机数、_gcd） 等
+
+- [c++ STL常用算法](https://blog.csdn.net/m0_50046535/article/details/124358895)
 
 ---
 
