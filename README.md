@@ -187,6 +187,8 @@ CPC类比赛： **容器类、数学思想、算法 、 数据结构** 都有涉
 - PE：Presentation Error 格式错误
 - OLE：Output Limit Exceed 输出超出限制/输出超限 
 - 爆零：在比赛中取得了 0 分
+- 打星：打星队不参与名次排名，参赛只是为了交流学习
+
 ## 常见术语
 - ACM：美国计算机协会
 - ICPC：International Collegiate Programming Contest 国际大学生程序设计竞赛，由美国计算机协会(ACM)主办，是全球最具影响力的大学生程序设计竞赛（最高赛事）
